@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Contact us</title>
+	<link rel="stylesheet" href="css/contactus.css">
+	<style>
+	h2.right{position:relative;
+				font-family:arial;
+				font-size:18px;
+				left:550px;
+				bottom:600px;
+	}
+	p.phone_icon{position:relative;
+				left:550px;
+				bottom:570px;
+				font-size:23px;
+	}
+	p.mail_icon{position:relative;
+				left:550px;
+				bottom:520px;
+				color:blue;
+				text-transform:underline;
+				font-size:23px;
+}
+	</style>
+
+</head>
+
+    <div id="big_wrapper">
+    <header id="top_header">
+	<img id="manna" style="height:175px; width:400px; margin-left:20px;"src="images/manna and quial design.jpg" >
+	</header>
+
+	<nav id="top_menu">
+	    <ul style="padding-right:300px;">
+		    <a href="home.html"><li>Home</li></a>
+			<a href="aboutus.html"><li>About Us</li></a>
+			<a href="menu.html"><li>Menu</li></a>
+			<a href="location.html"><li>Location</li></a>
+			<a href="contactus.html"><li>Contact Us</li></a>
+			<a href="developer.html"><li>Developer</li></a>
+					</ul>
+
+	</nav>
+		
+	<body>	
+	<img src="images/Contactus.jpg" style="height:80px; width:180px; margin-left:90px; margin-top:40px; padding:10px;">
+			
+		<form id="form_application" autocomplete="on" method="post" action="action.php">
+
+<hgroup>
+<h1 style="font-family:Calibri;font-size:25px;">Contact Information</h1>
+<h1 >Name   * </h1>
+<input class="long" type="text" required="required" name="username" placeholder="Full Name" size="40"  />  
+<h1 >Gender     *</h1>
+		<h1> Male<input class="long" required="required" type="radio" name="question" value="male"/>
+		 Female<input class="long" required="required" type="radio" name="question" value="female"/> </h1> 
+<h1 >Address    * </h1>
+<input class="long" required="required" type="text" name="address"  size="40" />  
+<h1 >Company    * </h1>
+<input class="long" required="required" type="text" name="company"  size="40" />  
+<h1 >Phone      * </h1>
+<input class="long" required="required" type="text" name="telephone"  size="40""  />  
+<h1 >Fax        * </h1>
+<input class="long" required="required" type="text" name="fax"  size="40"" />  
+         <h1 >  Email *</h1>
+<input class="long" required="required" type="text" name="email"  size="40"  />  
+   <h1>       * Subject</h1> <select  style="-webkit-border-radius:7px; font-family:tahoma;margin-left:70px;font-size:15px;"class="long" required="required" name="Select Option" >
+		 <option value="select_option">Select Option </option>
+		 <option value="compliant">Compliant</option>
+		 <option value="inquiry">Inquiry</option>
+		 <option value="commendation">Commendation</option>
+ 		 <option value="suggerstions">Suggestions</option>
+		 <option value="others">Others</option>
+		 </select>
+		 
+<h1>Comments </h1>
+<textarea class="long" required="required" style="-webkit-border-radius:7px; font-family:tahoma;margin-left:70px;font-size:15px;"name="biography" rows="10" cols="45">
+</textarea>
+		 </hgroup>
+ <button style="margin-left:80px;" class="btn-signin" type="submit" required="required" name="login" onclick="myFunction()"/>submit </button>
+<script>
+function myFunction(){
+		window.open("contactrecieved.html");
+		}
+</script> 
+				<h2 class="right">You can contact us right here:</h2>
+		<p class="phone_icon"><img src="images/Phone-icon.png">+63&#160;9277253573</p>
+		<u style="color:blue;"><p class="mail_icon"><img src="images/Mail-icon.png">hello@mannaxquial.com</p></u>
+</br></form>
+
+
+	<nav id="navnva">
+	<nav> </nav>
+	 <b><p>Follow as on:
+	 <a href="https://www.facebook.com/mannaxquail/timeline"><img src="images/Facebook-icon.png"></a>
+	 <a href="twitter.com"><img src="images/Twitter-icon.png"></a>
+	 <a href="http://instagram.com/mannaxquail/"><img src="images/Instagram-icon.png"></a>
+	 </p></b>
+	</nav>
+
+	</body>
+	<footer id="copy_right"> 
+		    <ul style="padding-right:300px;">
+		    <a href="home.html"><li>Home</li></a> ||
+			<a href="aboutus.html"><li>About Us</li></a> ||
+			<a href="menu.html"><li>Menu</li></a> ||
+			<a href="location.html"><li>Location</li></a> ||
+			<a href="contactus.html"><li>Contact Us</li></a> ||
+			<a href="developer.html"><li>Developer</li></a>
+					</ul>
+			<p> © All Rights Reserved 2015 ||  M A N N A  X  Q U I A L</p>
+	</footer>
+</html>
